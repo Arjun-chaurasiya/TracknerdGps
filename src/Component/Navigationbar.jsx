@@ -13,8 +13,8 @@ import '../Component/Navbar.css'
 function Navbar1() {
     
     return (
-    
-            <Navbar expand="md" color="light" light expand="md" className="">
+      
+            <Navbar expand="md" color="light" light expand="md" className="fixed-top">
               <NavbarBrand style={{ width: `100%`, maxWidth: `800px` }} className="mr-auto">
             <img className="logo" alt="Tracknerd Logo" src='./logo.png'/>
         </NavbarBrand>
@@ -42,6 +42,7 @@ function Navbar1() {
                     </NavItem>
                   </Nav>
               </Navbar>
+              
     );
   }
   
