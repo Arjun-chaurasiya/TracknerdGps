@@ -1,23 +1,19 @@
 import React from 'react'
 import { Container, Row, Col } from 'reactstrap';
+import Slider from '../../slider/slider';
+import Footer from '../Footer';
 import '../Home.css'
 function Home(){
     return(
-        
-        <Row>
-          <Col xs=''>
-              <img className="Vehicleimage mt-4" src="tracknerd vehicle.jpg" alt="tracknerd vehicles"/>
-          </Col>
-          {/* <Col xs='2'>
-          <h1 className="Protect">
-           Protect Your Most Valuable Assets
-          </h1>
-          </Col> */}
-        
-    <h1>
-  Welcome to Tracknerd Gps private Limited
-    </h1>
-    </Row>
+      <>
+        <Slider/>
+    <div className="">
+      <h1>
+        Welcome to Tracknerd Gps Private Limited 
+      </h1>
+    </div>
+    <Footer/>
+    </>
     );
 }
 export default Home;
